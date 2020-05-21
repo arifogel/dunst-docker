@@ -23,10 +23,6 @@ RUN apt-get update && apt-get install -y \
     libgtk-3-dev \
     libxdg-basedir-dev \
     libnotify-dev \
-&&  rm -rf /var/lib/apt/lists/* \
-&&  apt-get clean
-
-RUN apt-get update && apt-get install -y \
     systemd \
 &&  rm -rf /var/lib/apt/lists/* \
 &&  apt-get clean

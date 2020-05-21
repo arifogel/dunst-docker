@@ -44,7 +44,6 @@ dunst (${DUNST_DEB_VERSION}) unstable; urgency=medium
 EOF
 gunzip < "${SCRIPT_DIR}/changelog.Debian.gz" >> changelog
 gzip --best < changelog >> changelog.Debian.gz
-cat changelog
 rm changelog
 popd
 
